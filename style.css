@@ -24,9 +24,24 @@ nav ul li a {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px;
-    background: url('images/hero.jpg') center/cover;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
+    font-size: 2.5em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
 }
 
 /* Home Page Layout */
@@ -59,6 +74,7 @@ nav ul li a {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s;
+    background: white;
 }
 
 .service-card:hover {
@@ -68,6 +84,7 @@ nav ul li a {
 .service-card img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px;
 }
 
 /* Contact Form */
@@ -82,6 +99,7 @@ form {
 input, textarea {
     padding: 10px;
     border: 1px solid #ccc;
+    width: 100%;
 }
 
 button {
