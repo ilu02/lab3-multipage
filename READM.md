@@ -1,4 +1,4 @@
-# Lab 3 - Multipage Website
+# Lab 4: Making Your Website Interactive with JavaScript
 
 ## Group Members
 - Student 1: Ilukena Chisanga
