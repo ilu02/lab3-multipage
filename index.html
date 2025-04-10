@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - My Website</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle">Switch Theme</button>
+  </header>
 
-    <section class="hero">
-        <h1>Welcome to Our Website</h1>
-    </section>
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+  </section>
 
-    <section class="content">
-        <div class="intro">
-            <h2>About Us</h2>
-            <p>We offer amazing services to our clients.</p>
-        </div>
-        <aside class="sidebar">
-            <h3>Latest News</h3>
-            <p>Check out our new offers!</p>
-        </aside>
-    </section>
+  <section class="content">
+    <div class="intro">
+      <h2>About Us</h2>
+      <p>We offer amazing services to our clients.</p>
+    </div>
+    <aside class="sidebar">
+      <h3>Latest News</h3>
+      <p>Check out our new offers!</p>
+    </aside>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+  <section class="fetch-section">
+    <h2>Team Members</h2>
+    <ul id="userList"></ul>
+    <button id="loadUsersBtn">Load Users</button>
+  </section>
+
+ <section class="faq">
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <h3 class="question">What is this website about?</h3>
+    <p class="answer">This is a demo project for learning web development.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3 class="question">How do I contact you?</h3>
+    <p class="answer">You can fill out the form on our Contact page.</p>
+  </div>
+</section>
+
+
+  <button id="backToTop">⬆ Back to Top</button>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
